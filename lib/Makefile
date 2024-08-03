@@ -17,7 +17,7 @@ OBJS = $(patsubst %.cpp,%.o,$(SRC))
 # 库名
 EXEC = libeasymp3encoder.so
 
-cc = arm-linux-g++
+cc = g++
 
 FLAGS = -fPIC
 
