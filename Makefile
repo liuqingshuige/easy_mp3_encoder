@@ -14,6 +14,7 @@ LIBS_PATH = -L./lib/
 TARGET = mp3encode
 
 $(TARGET): $(OBJS)
+	@cd lib;     make
 	$(cc) -o $(TARGET) $(OBJS) $(LIBS_PATH) $(LIBS)
 	rm -f $(OBJS)
 	
