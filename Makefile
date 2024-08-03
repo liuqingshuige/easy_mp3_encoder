@@ -3,7 +3,7 @@ SRC = $(wildcard *.cpp)
 # 将src中的所有.c文件替换为.o文件
 OBJS = $(patsubst %.cpp,%.o,$(SRC))
 # 编译器
-cc = arm-linux-g++
+cc = g++
 # 头文件包含路径
 INCLUDE = -I./lib/
 # 库文件
