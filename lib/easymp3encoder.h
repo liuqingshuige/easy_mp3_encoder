@@ -2,7 +2,7 @@
  * An easy mp3 encoder implement by shine_mp3
  * Copyright FreeCode. All Rights Reserved.
  * MIT License (https://opensource.org/licenses/MIT)
- * 2024 by lingqingshuige liubaiji@xverse.cn
+ * 2024 by lingqingshuige
  */
 #ifndef __LIB_EASY_MP3_ENCODER_H__
 #define __LIB_EASY_MP3_ENCODER_H__
