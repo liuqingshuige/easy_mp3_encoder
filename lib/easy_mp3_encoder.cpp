@@ -6,7 +6,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 
-#include "easymp3encoder.h"
+#include "easy_mp3_encoder.h"
 #include "shine_mp3.h"
 
 
