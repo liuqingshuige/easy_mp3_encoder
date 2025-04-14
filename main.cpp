@@ -6,7 +6,7 @@
 #include <sys/time.h>
 #include <sys/types.h>
 #include <sys/stat.h>
-#include "easymp3encoder.h"
+#include "easy_mp3_encoder.h"
 
 // 返回开机以来的时间(ms)
 unsigned long GetTickCount(void)
